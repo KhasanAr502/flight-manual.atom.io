@@ -7,10 +7,10 @@ gem 'nanoc', ['>= 4.1', '< 4.2']
 gem 'nanoc-conref-fs', '~> 0.5'
 
 # rendering
-gem 'nanoc-html-pipeline', '0.3.3'
+gem 'nanoc-html-pipeline', '0.3.4'
 gem 'gemoji', '2.1.0'
-gem 'html-pipeline-rouge_filter', '~> 1.0'
-gem 'extended-markdown-filter', '~> 0.4'
+gem 'html-pipeline-rouge_filter', '~> 1.0', '>= 1.0.7'
+gem 'extended-markdown-filter', '~> 0.4', '>= 0.4.10'
 gem 'html-pipeline-asciidoc_filter', '~> 1.5'
 gem 'github-markdown', '~> 0.6.9'
 
@@ -20,5 +20,5 @@ gem 'pry'
 
 group :test do
   gem 'colorize', '~> 0.8.1'
-  gem 'html-proofer', '~> 3.7'
+  gem 'html-proofer', '~> 3.7', '>= 3.7.3'
 end

@@ -1,0 +1,75 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - gulp > gulp-cli > liftoff > extend:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:extend:20180424'
+        path: gulp > gulp-cli > liftoff > extend
+    - gulp > vinyl-fs > glob-stream > extend:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:extend:20180424'
+        path: gulp > vinyl-fs > glob-stream > extend
+    - gulp-sass > node-sass > request > extend:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:extend:20180424'
+        path: gulp-sass > node-sass > request > extend
+    - gulp-sass > node-sass > node-gyp > request > extend:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:extend:20180424'
+        path: gulp-sass > node-sass > node-gyp > request > extend
+  'npm:hoek:20180212':
+    - gulp-sass > node-sass > request > hawk > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > request > hawk > hoek
+    - gulp-sass > node-sass > request > hawk > boom > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > request > hawk > boom > hoek
+    - gulp-sass > node-sass > request > hawk > sntp > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > request > hawk > sntp > hoek
+    - gulp-sass > node-sass > node-gyp > request > hawk > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > node-gyp > request > hawk > hoek
+    - gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > node-gyp > request > hawk > boom > hoek
+    - gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > request > hawk > cryptiles > boom > hoek
+    - gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: gulp-sass > node-sass > node-gyp > request > hawk > sntp > hoek
+    - gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gulp-sass > node-sass > node-gyp > request > hawk > cryptiles > boom >
+          hoek
+  SNYK-JS-LODASH-567746:
+    - gulp-sass > node-sass > sass-graph > lodash:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: SNYK-JS-LODASH-567746
+        path: gulp-sass > node-sass > sass-graph > lodash
+    - gulp-sass > node-sass > gaze > globule > lodash:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: SNYK-JS-LODASH-567746
+        path: gulp-sass > node-sass > gaze > globule > lodash
+  'npm:stringstream:20180511':
+    - gulp-sass > node-sass > request > stringstream:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:stringstream:20180511'
+        path: gulp-sass > node-sass > request > stringstream
+    - gulp-sass > node-sass > node-gyp > request > stringstream:
+        patched: '2024-02-21T23:39:29.088Z'
+        id: 'npm:stringstream:20180511'
+        path: gulp-sass > node-sass > node-gyp > request > stringstream
